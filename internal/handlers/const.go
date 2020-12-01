@@ -15,7 +15,7 @@ const authPrefix = "Basic "
 const AuthorizationHeader = "Proxy-Authorization"
 const remoteUserHeader = "Remote-User"
 const remoteGroupsHeader = "Remote-Groups"
-const remoteEmailsHeader = "From"
+const remoteEmailsHeader = "X-email"
 
 var protoHostSeparator = []byte("://")
 
